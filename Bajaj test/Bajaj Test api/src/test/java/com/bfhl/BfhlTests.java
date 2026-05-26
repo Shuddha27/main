@@ -55,8 +55,8 @@ class BfhlTests {
         String body = "{\"data\":[]}";
         mvc.perform(post("/bfhl").contentType(MediaType.APPLICATION_JSON).content(body))
             .andExpect(status().isOk())
-            .andExpect(jsonPath("$.user_id").value("shubhda_agrawal_29112005"))
-            .andExpect(jsonPath("$.email").value("shubhdaagrawal230366@acropolis.in"))
-            .andExpect(jsonPath("$.roll_number").value("0827cy231068"));
+            .andExpect(jsonPath("$.user_id").value("shuddhakaushik_27092005"))
+            .andExpect(jsonPath("$.email").value("shuddhakaushik230666@acropolis.in"))
+            .andExpect(jsonPath("$.roll_number").value("0827CY231069"));
     }
 }
