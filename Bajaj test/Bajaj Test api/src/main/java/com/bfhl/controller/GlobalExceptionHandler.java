@@ -14,9 +14,9 @@ public class GlobalExceptionHandler {
     public ResponseEntity<BfhlResponse> handle(Exception e) {
         BfhlResponse r = new BfhlResponse();
         r.setSuccess(false);
-        r.setUserId("shubhda_agrawal_29112005");
-        r.setEmail("shubhdaagrawal230366@acropolis.in");
-        r.setRollNumber("0827cy231068");
+        r.setUserId("shuddhakaushik_27092005");
+        r.setEmail("shuddhakaushik230666@acropolis.in");
+        r.setRollNumber("0827CY231069");
         r.setOddNumbers(Collections.emptyList());
         r.setEvenNumbers(Collections.emptyList());
         r.setAlphabets(Collections.emptyList());
